@@ -1,0 +1,100 @@
+.container {
+  background-color: red;
+  height: 75px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .container div {
+  margin-top: 
+} */
+
+.container #titulo {
+  margin-right: 500px;
+}
+
+/*Começo Banner*/
+
+.banner {
+  background-color: blue;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Fim Banner*/
+
+/*Começo do mid*/
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DR {
+  background-color: yellow;
+  position: absolute;
+  height: 370px;
+  width: 600px;
+  margin-top: 150px;
+}
+
+
+/*Fim do mid*/
+
+/*Começo do fin*/
+
+.fin {
+  display: flex;
+  justify-content: center;
+}
+
+#ptitulo::before, #ptitulo::after {
+  content: "";
+  height: 1px;
+  border: 1px solid #000;
+  border-width: 100%;
+
+}
+
+#ptitulo {
+  margin-top: 200px;
+  font-size: large;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  margin-top: 20px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+#pratos {
+  background-color: blueviolet;
+  width: 300px;
+  height: 300px;
+}
+
+
+/*Fim do fin*/
+
+.pe {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 200px;
+}
+
