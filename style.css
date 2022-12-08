@@ -1,6 +1,6 @@
 .container {
   background-color: red;
-  height: 75px;
+  height: 100px;
 
   display: flex;
   justify-content: space-evenly;
@@ -10,8 +10,11 @@
   margin-top: 
 } */
 
-.container #titulo {
-  margin-right: 500px;
+.container #titulo img {
+  max-width:200px;
+  max-height: 75px;
+  width: auto;
+  height: auto;
 }
 
 /*Começo Banner*/
@@ -52,7 +55,8 @@
   justify-content: center;
 }
 
-#ptitulo::before, #ptitulo::after {
+#ptitulo::before,
+#ptitulo::after {
   content: "";
   height: 1px;
   border: 1px solid #000;
@@ -105,33 +109,34 @@
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: nowrap;
-  
+
 }
 
-  .test {
-    margin-left: 10px;
-    margin-right: 10px;
- }
+.test {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
- .test, #abert {
+.test,
+#abert {
   white-space: nowrap;
   text-align: center;
- }
+}
 
- #contato {
+#contato {
   margin-top: 50px;
- }
+}
 
- #abert {
+#abert {
   margin-top: 25px;
- }
+}
 
- #dias {
+#dias {
   display: flex;
   flex-direction: column;
   height: 160px;
   width: 200px;
- }
+}
 
 #git {
   margin-top: 50px;
@@ -140,7 +145,6 @@
 #creds {
   display: flex;
   justify-content: center;
-  
+
   margin-top: 20px;
 }
-
