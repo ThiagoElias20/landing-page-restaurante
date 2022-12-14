@@ -1,28 +1,90 @@
 .container {
-  background-color: red;
-  height: 100px;
+  height: 75px;
 
   display: flex;
   justify-content: space-evenly;
 }
 
-/* .container div {
-  margin-top: 
-} */
+#cor hr {
+  background-color: red;
+  border-color: #000;
+}
 
 .container #titulo img {
-  max-width:200px;
+  max-width: 200px;
   max-height: 75px;
   width: auto;
   height: auto;
+
+  margin-left: -110px;
 }
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: larger;
+  width: 150px;
+} 
+
+
+.container .login {
+  align-items: center;
+  align-self: center;
+  background-color: #fff;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.login:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.login:hover:after {
+  transform: translate(0, 0);
+}
+
+.login:active {
+  background-color: rgba(255, 255, 255, 0.829);
+  outline: 0;
+}
+
 
 /*Começo Banner*/
 
 .banner {
-  background-color: blue;
+  background-image: url(/img/banner/madeira-fundo.jpeg);
   width: 100%;
-  height: 400px;
+  height: 500px;
   display: flex;
   justify-content: center;
 }
@@ -38,13 +100,71 @@
 }
 
 .DR {
-  background-color: yellow;
+  background-color: #fff;
   position: absolute;
   height: 370px;
   width: 600px;
-  margin-top: 150px;
+  margin-top: 250px;
+  box-shadow: 0px 20px 22px 0px #000;
+  border-radius: 10px;
 }
 
+.DR .opcoes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#delret {
+  width: 300px;
+  height: 100px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.del {
+  background-color: #fff;
+  border-right-width: 1px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-top-left-radius: 10px;
+}
+
+.ret {
+  background-color: rgba(255, 255, 255, 0.685);
+  border-left-width: 1px;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-top-right-radius: 10px;
+}
+
+.onde {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.heading-hr:after, .heading-hr:before {
+  margin-top: 12px;
+  content: "";
+  height: 1px;
+  border: 1px solid #e9ebee;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  top: -2px;
+}
+
+.onde {
+  font-size: larger;
+}
+
+.cep {
+  margin-top: 10px;
+  text-align: center;
+}
 
 /*Fim do mid*/
 
