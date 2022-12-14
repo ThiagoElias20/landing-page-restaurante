@@ -218,9 +218,9 @@ align-items: center;
 
 /*Fim do mid*/
 
-/*Começo do fin*/
+/*Pedidos*/
 
-.fin {
+.pdds {
   display: flex;
   justify-content: center;
 }
@@ -262,8 +262,14 @@ align-items: center;
   height: 300px;
 }
 
+#pratos img {
+  width: 300px;
+  height: 300px;
+}
 
-/*Fim do fin*/
+/*Fim dos Pedidos*/
+
+/*Começo do footer*/
 
 .pe {
   background-color: #0a0908;
