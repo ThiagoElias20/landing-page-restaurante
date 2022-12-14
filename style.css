@@ -102,7 +102,7 @@
 .DR {
   background-color: #fff;
   position: absolute;
-  height: 370px;
+  height: 400px;
   width: 600px;
   margin-top: 250px;
   box-shadow: 0px 20px 22px 0px #000;
@@ -164,6 +164,41 @@
 .cep {
   margin-top: 10px;
   text-align: center;
+}
+
+.inputs {
+  margin-top: 20px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+
+.inputs #cep {
+  width: 500px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.inputs #inf {
+  width: 500px;
+  height: 45px;
+}
+
+.botao-buscar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.botao-buscar button {
+  width: 500px;
+  height: 45px;
+  color: #fff;
+  background-color: #4b1a02;
+  cursor: pointer;
+  font-size: larger;
 }
 
 /*Fim do mid*/
