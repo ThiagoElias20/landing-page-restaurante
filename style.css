@@ -289,6 +289,19 @@ align-items: center;
 
 /*Fim dos Pedidos*/
 
+/*Começo da parte vegetariana*/
+
+.backgreen {
+  background-color: greenyellow;
+}
+
+.vegetarianas {
+  color: rgb(255, 255, 255);
+  background-image: url(/img/banner/Fundo\ plantas.png);
+  height: 408px;
+  font-weight: bolder;
+}
+
 /*Começo do footer*/
 
 .pe {
