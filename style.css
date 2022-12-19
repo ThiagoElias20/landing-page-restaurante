@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 .body {
   color: #0a0908;
 }
@@ -292,14 +294,24 @@ align-items: center;
 /*Começo da parte vegetariana*/
 
 .backgreen {
-  background-color: greenyellow;
+  background-image: url(/img/banner/Fundo\ plantastest.png);
+  display: flex;
+  justify-content: center;
+  
 }
 
 .vegetarianas {
   color: rgb(255, 255, 255);
-  background-image: url(/img/banner/Fundo\ plantas.png);
-  height: 408px;
+  height: 400px;
   font-weight: bolder;
+}
+
+.vegetarianas h1 {
+  font-family: 'Fredoka One', cursive;
+  background-color: rgba(28, 214, 28, 0.774);
+  width: 490px;
+  font-size: 3em;
+  margin-top: 20px;
 }
 
 /*Começo do footer*/
