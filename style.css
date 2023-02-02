@@ -106,6 +106,7 @@
 }
 
 .drao {
+  margin-top: 250px;
   position: absolute;
   height: 500px;
   width: 700px;
@@ -117,15 +118,23 @@
   position: absolute;
   height: 400px;
   width: 600px;
-  margin-top: 250px;
   box-shadow: 0px 20px 22px 0px #000;
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .DR .opcoes {
   display: flex;
   justify-content: space-evenly;
   background-color: transparent;
+}
+
+.opcoes-prime {
+  display: flex;
+}
+
+.opcoes2 {
+   background-color: transparent;  /* isso vou deixar transparente */
 }
 
 #delret {
