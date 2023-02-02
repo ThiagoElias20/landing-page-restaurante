@@ -105,6 +105,13 @@
   align-items: center;
 }
 
+.drao {
+  position: absolute;
+  height: 500px;
+  width: 700px;
+  
+}
+
 .DR {
   background-color: #fff;
   position: absolute;
@@ -118,6 +125,7 @@
 .DR .opcoes {
   display: flex;
   justify-content: space-evenly;
+  background-color: transparent;
 }
 
 #delret {
@@ -127,16 +135,18 @@
 
 .del {
   width: 300px;
-  height: 100px;
+  height: 125px;
   background-color: red;
   border-right-width: 1px;
   border-top: none;
   border-bottom: none;
   border-left: none;
   border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .ret {
+  margin-top: 25px;
   width: 300px;
   height: 100px;
   background-color: blue;
@@ -144,6 +154,7 @@
   border-top: none;
   border-bottom: none;
   border-right: none;
+  border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
