@@ -121,14 +121,14 @@
 }
 
 #delret {
-  width: 300px;
-  height: 100px;
   cursor: pointer;
   font-size: large;
 }
 
 .del {
-  background-color: #fff;
+  width: 300px;
+  height: 100px;
+  background-color: red;
   border-right-width: 1px;
   border-top: none;
   border-bottom: none;
@@ -137,7 +137,9 @@
 }
 
 .ret {
-  background-color: rgba(255, 255, 255, 0.685);
+  width: 300px;
+  height: 100px;
+  background-color: blue;
   border-left-width: 1px;
   border-top: none;
   border-bottom: none;
