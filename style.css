@@ -116,7 +116,7 @@
 .DR {
   background-color: #fff;
   position: absolute;
-  height: 400px;
+  height: 300px;
   width: 600px;
   box-shadow: 0px 20px 22px 0px #000;
   border-bottom-left-radius: 10px;
@@ -137,15 +137,13 @@
    background-color: transparent;  /* isso vou deixar transparente */
 }
 
-#delret {
+.del {
   cursor: pointer;
   font-size: large;
-}
-
-.del {
   width: 300px;
   height: 125px;
-  background-color: red;
+  background-color: #fff;
+  color: #9A2727;
   border-right-width: 1px;
   border-top: none;
   border-bottom: none;
@@ -154,11 +152,18 @@
   border-top-right-radius: 10px;
 }
 
+#retirada {
+  display: none;
+}
+
 .ret {
+  cursor: pointer;
+  font-size: large;
   margin-top: 25px;
   width: 300px;
   height: 100px;
-  background-color: blue;
+  background-color: #D5D5D5;
+  color: #585858;
   border-left-width: 1px;
   border-top: none;
   border-bottom: none;
