@@ -12,6 +12,9 @@ function reton() {
   document.getElementById('ret').style.height = '125px';
   document.getElementById('ret').style.marginTop = '0px';
 
+  document.getElementById('DR').style.height = '200px';
+  document.getElementById('ret-centr').style.height = '200px';
+
   //
 
   document.getElementById('delivery').style.display = 'none'
@@ -32,6 +35,8 @@ function delon() {
 
   document.getElementById('ret').style.height = '100px';
   document.getElementById('ret').style.marginTop = '25px';
+
+  document.getElementById('DR').style.height = '300px';
 
   //
 
