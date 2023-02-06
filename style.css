@@ -152,6 +152,7 @@
   border-top-right-radius: 10px;
 }
 
+/* Retirada */
 #retirada {
   display: none;
 }
@@ -177,6 +178,21 @@
   justify-content: center;
   margin-top: 30px;
 }
+
+.ret-centr {
+  background-color: rgb(251, 255, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.textao {
+  font-size: larger;
+  background-color: red;
+}
+/* Fim da Retirada */
 
 .heading-hr:after, .heading-hr:before {
   margin-top: 12px;
