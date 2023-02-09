@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 .body {
   color: #0a0908;
+  font-family: 'Fredoka One', cursive;
 }
+
+
 
 .container {
   height: 75px;
@@ -203,9 +208,22 @@
   height: 50px;
 }
 
+.buttext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .butin {
   width: 100px;
-  height: 50px;
+  height: 56px;
+  background-color: #9A2727;
+  color: #fff;
+  cursor: pointer;
+}
+
+.butin:active {
+  transform: translateY(2px);
 }
 /* Fim da Retirada */
 
