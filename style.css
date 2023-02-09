@@ -10,8 +10,6 @@ html {
   color: #0a0908;
 }
 
-
-
 .container {
   height: 75px;
 
@@ -42,6 +40,42 @@ html {
   width: 150px;
 } 
 
+.home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home span {
+  visibility: hidden;
+  align-self: center;
+  position: absolute;
+  height: 0px;
+  font-size: xx-large;
+}
+
+.home:hover span {
+  visibility: visible;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sobre span {
+  visibility: hidden;
+  align-self: center;
+  position: absolute;
+  height: 0px;
+  font-size: xx-large;
+}
+
+.sobre:hover span {
+  visibility: visible;
+}
 
 .container .login {
   align-items: center;
