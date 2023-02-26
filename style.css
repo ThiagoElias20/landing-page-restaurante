@@ -548,7 +548,7 @@ align-items: center;
   flex-direction: column;
   justify-content: center;
  
-  width: fit-content;
+  width: 50%;
   height: fit-content;
 }
 
@@ -578,6 +578,13 @@ align-items: center;
 .divisao-class {
   display: flex;
   flex-direction: row;
-  
-  justify-content: space-evenly;
+}
+
+.imgdcomida {
+  width: 50%;
+}
+
+.imgdcomida img {
+  height: 750px;
+  width: 944px;
 }
