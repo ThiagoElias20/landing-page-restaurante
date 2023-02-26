@@ -16,7 +16,7 @@
         <!-- Essa imagem da logo foi usando uma ferramenta no google "https://www.img2go.com/pt/redimensionar-imagem" para redimensionar a normal, depois cortei
         a borda de um jeito porco, dps vou ajeitar. -->
   
-        <div id="titulo"><img src="/img/Angico logo sem fundo.png" alt="logosamba" id="titulo"></div>
+        <div id="titulo"><img src="/img/Angico logo sem fundo.png" alt="logoangico" id="titulo"></div>
   
           <header>
             <div class="home"><a href="."><strong>Home</strong></a>
@@ -27,122 +27,135 @@
             </div>
           </header>
           
-          <button class="login">Login</button>
+          <button class="login" onclick="paglogin()">Login</button>
   
       </div>
       <hr>
     </div>
-    <div class="mid">
-      <div class="banner"></div>
-      <div class="drao">
-        <div class="opcoes-prime">
-          <div class="opcoes1">
-            <button class="del" id="del" onclick="delon()"> <i class="fa-solid fa-motorcycle"></i> Delivery</button>
-          </div>
-          <div class="opcoes2">
-            <button class="ret" id="ret" onclick="reton()"> <i class="fa-solid fa-utensils"></i> Retirada</button>
-          </div> 
-        </div>
-        <div class="DR" id="DR">
-          <div id="delivery">
-            <div class="onde heading-hr">
-              Onde receber seu pedido?</div>
-              <div class="cep">Insira o seu CEP para encontrarmos a loja mais próxima de você.</div>
-              <div class="inputs">
-                <input type="text" name="CEP" id="cep" placeholder="Insira seu CEP">
-                <input type="text" name="inf" id="inf" placeholder="Informe o número da casa/prédio">
-              </div>
-    
-              <div class="botao-buscar">
-                
-                <button>Buscar</button>
-    
-              </div>
-          </div>
 
-          <div id="retirada">
-            <div class="ret-centr" id="ret-centr">
-              <div class="textao heading-hr">Digite sua localização para a retirada de seu pedido</div>
-              <div class="descri">Insira o seu CEP para encontrarmos a loja mais próxima de você.</div>
-              <div class="buttext">
-                <input type="text" class="inputin" placeholder="Insira seu CEP">
-                <button class="butin">Buscar</button>
-              </div>
+    <div class="pag-home">
+      <div class="mid">
+        <div class="banner"></div>
+        <div class="drao">
+          <div class="opcoes-prime">
+            <div class="opcoes1">
+              <button class="del" id="del" onclick="delon()"> <i class="fa-solid fa-motorcycle"></i> Delivery</button>
             </div>
+            <div class="opcoes2">
+              <button class="ret" id="ret" onclick="reton()"> <i class="fa-solid fa-utensils"></i> Retirada</button>
+            </div> 
           </div>
-  
-        </div>
-      </div>
+          <div class="DR" id="DR">
+            <div id="delivery">
+              <div class="onde heading-hr">
+                Onde receber seu pedido?</div>
+                <div class="cep">Insira o seu CEP para encontrarmos a loja mais próxima de você.</div>
+                <div class="inputs">
+                  <input type="text" name="CEP" id="cep" placeholder="Insira seu CEP">
+                  <input type="text" name="inf" id="inf" placeholder="Informe o número da casa/prédio">
+                </div>
       
-    </div>
-
-    <div class="pdds">
-      <div class="heading-hr"  id="ptitulo"><strong>Maior demanda</strong></div>
-    </div>
-
-      <section>
-        <div class="pedidos">
-          <div class="row1">
-            <div class="descricoes">
-              <div id="pratos"><img src="/img/pratos/Feijoada.png" alt="Feijoada"> </div> <span>Feijoada à moda da casa</span>
-              <p>R$ 55,50</p>
+                <div class="botao-buscar">
+                  
+                  <button>Buscar</button>
+      
+                </div>
             </div>
-            <div class="descricoes">
-              <div id="pratos"> <img src="/img/pratos/Chili Fries.jpg" alt="chili fries"></div> <span>Chili Fries</span>
-              <p>R$ 47,00</p>
+  
+            <div id="retirada">
+              <div class="ret-centr" id="ret-centr">
+                <div class="textao heading-hr">Digite sua localização para a retirada de seu pedido</div>
+                <div class="descri">Insira o seu CEP para encontrarmos a loja mais próxima de você.</div>
+                <div class="buttext">
+                  <input type="text" class="inputin" placeholder="Insira seu CEP">
+                  <button class="butin">Buscar</button>
+                </div>
+              </div>
             </div>
-            <div class="descricoes">
-              <div id="pratos"> <img src="/img/pratos/Picanha.jpg" alt="picanha"></div> <span>Picanha com molho barbecue</span>
-              <p>R$ 51,00</p>
-            </div>
-            <div class="descricoes">
-              <div id="pratos"><img src="/img/pratos/nhoque-de-beterraba.png" alt="nhoque"> </div> <span>Nhoque de Beterraba</span>
-              <p>R$ 27,00</p>
-            </div>
-          </div>
-          <div class="row2">
-            <div class="descricoes">
-              <div id="pratos"> <img src="/img/pratos/Zoodles-Tomate-pesto.jpg" alt="zoodles"> </div> <span>Zoodles com camarão e tomate</span>
-              <p>R$ 64,00</p>
-            </div>
-            <div class="descricoes">
-              <div id="pratos"> <img src="/img/pratos/Espetinho.jpg" alt="espetinho"></div> <span>Espetinho de Carne</span>
-              <p>R$ 12,00</p>
-            </div>
-            <div class="descricoes">
-              <div id="pratos"> <img src="/img/pratos/Mousse-chocolate.jpg" alt="mousse"></div> <span>Mousse de chocolate com <br> chantilly</span>
-              <p>R$ 10,00</p>       
-            </div>
-            <div class="descricoes">
-              <div id="pratos"> <img src="/img/pratos/macarrao-cogumelos.png" alt="fettuccine"> </div> <span>Fettuccine com cogumelos <br> e molho pesto</span>
-              <p>R$ 29,50</p>
-            </div>
+    
           </div>
         </div>
-      </section>
-
-      <div class="backgreen">
-        <div class="vegetarianas"> 
-          <div><h1>Opções vegetarianas</h1></div>
-          <div class="pratos-vegetarianos">
-            <div class="descricoes2">
-              <div id="pratos2"><img src="/img/pratos/Torradas-com-queijo-asiago.jpg" alt="torradas"></div> <span>Torradas com queijo asiago</span>
-              <p>R$ 8,00</p>
-            </div>
-            <div class="descricoes2">
-              <div id="pratos2"><img src="/img/pratos/batata rústica.jpg" alt="torradas"></div> <span>Batata rústica</span>
-              <p>R$ 12,00</p>
-            </div>
-            <div class="descricoes2">
-              <div id="pratos2"><img src="/img/pratos/ratatouille.jpg" alt="ratatouille"></div> <span>Ratatouille pesto</span>
-              <p>R$ 32,00</p>
-
-
-            </div>
-          </div>
         
-        </div>
       </div>
+  
+      <div class="pdds">
+        <div class="heading-hr"  id="ptitulo"><strong>Maior demanda</strong></div>
+      </div>
+  
+        <section>
+          <div class="pedidos">
+            <div class="row1">
+              <div class="descricoes">
+                <div id="pratos"><img src="/img/pratos/Feijoada.png" alt="Feijoada"> </div> <span>Feijoada à moda da casa</span>
+                <p>R$ 55,50</p>
+              </div>
+              <div class="descricoes">
+                <div id="pratos"> <img src="/img/pratos/Chili Fries.jpg" alt="chili fries"></div> <span>Chili Fries</span>
+                <p>R$ 47,00</p>
+              </div>
+              <div class="descricoes">
+                <div id="pratos"> <img src="/img/pratos/Picanha.jpg" alt="picanha"></div> <span>Picanha com molho barbecue</span>
+                <p>R$ 51,00</p>
+              </div>
+              <div class="descricoes">
+                <div id="pratos"><img src="/img/pratos/nhoque-de-beterraba.png" alt="nhoque"> </div> <span>Nhoque de Beterraba</span>
+                <p>R$ 27,00</p>
+              </div>
+            </div>
+            <div class="row2">
+              <div class="descricoes">
+                <div id="pratos"> <img src="/img/pratos/Zoodles-Tomate-pesto.jpg" alt="zoodles"> </div> <span>Zoodles com camarão e tomate</span>
+                <p>R$ 64,00</p>
+              </div>
+              <div class="descricoes">
+                <div id="pratos"> <img src="/img/pratos/Espetinho.jpg" alt="espetinho"></div> <span>Espetinho de Carne</span>
+                <p>R$ 12,00</p>
+              </div>
+              <div class="descricoes">
+                <div id="pratos"> <img src="/img/pratos/Mousse-chocolate.jpg" alt="mousse"></div> <span>Mousse de chocolate com <br> chantilly</span>
+                <p>R$ 10,00</p>       
+              </div>
+              <div class="descricoes">
+                <div id="pratos"> <img src="/img/pratos/macarrao-cogumelos.png" alt="fettuccine"> </div> <span>Fettuccine com cogumelos <br> e molho pesto</span>
+                <p>R$ 29,50</p>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <div class="backgreen">
+          <div class="vegetarianas"> 
+            <div><h1>Opções vegetarianas</h1></div>
+            <div class="pratos-vegetarianos">
+              <div class="descricoes2">
+                <div id="pratos2"><img src="/img/pratos/Torradas-com-queijo-asiago.jpg" alt="torradas"></div> <span>Torradas com queijo asiago</span>
+                <p>R$ 8,00</p>
+              </div>
+              <div class="descricoes2">
+                <div id="pratos2"><img src="/img/pratos/batata rústica.jpg" alt="torradas"></div> <span>Batata rústica</span>
+                <p>R$ 12,00</p>
+              </div>
+              <div class="descricoes2">
+                <div id="pratos2"><img src="/img/pratos/ratatouille.jpg" alt="ratatouille"></div> <span>Ratatouille pesto</span>
+                <p>R$ 32,00</p>
+  
+  
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <div class="pag-login">
+      <h1>LOGIN</h1>
+    </div>
 
       <footer>
         <div class="pe">

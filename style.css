@@ -536,3 +536,9 @@ align-items: center;
 
   margin-top: 20px;
 }
+
+/*Pagina de login*/
+
+.pag-login {
+  display: none;
+}
