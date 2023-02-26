@@ -547,8 +547,9 @@ align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
  
-  width: 50%;
+  width: 45%;
   height: fit-content;
 }
 
@@ -566,7 +567,16 @@ align-items: center;
   margin-bottom: 5px;
 }
 
-.login-pag input {
+.login-pag input[type=text] {
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid;
+
+  margin-bottom: 15px;
+}
+
+.login-pag input[type=password] {
   width: 300px;
   height: 45px;
   border-radius: 5px;
@@ -581,10 +591,42 @@ align-items: center;
 }
 
 .imgdcomida {
-  width: 50%;
+  width: 70%;
 }
 
 .imgdcomida img {
-  height: 750px;
-  width: 944px;
+  height: 950px;
+  width: 1300px;
+}
+
+.login-pag input[type=checkbox] {
+  width: 15px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.esq-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 305px;
+}
+
+.esq-check label {
+  align-self: center;
+}
+
+#lb-senha {
+  margin-top: 3px;
+  font-size: small;
+  color: grey;
+}
+
+.esq-check-son {
+  display: flex;
+  align-self: center;
+}
+
+.esq-check-son label {
+  margin-top: 4px;
 }
