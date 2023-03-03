@@ -543,6 +543,12 @@ align-items: center;
   display: none;
 } */
 
+.divisao-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .login-pag {
   display: flex;
   flex-direction: column;
