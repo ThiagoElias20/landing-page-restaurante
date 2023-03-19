@@ -44,7 +44,7 @@ function delon() {
   document.getElementById('retirada').style.display = 'none'
 }
 
-/* 
+ 
   function paglogin() {
   let pag_home = document.querySelector('.pag-home');
   let pag_login = document.querySelector('.pag-login');
@@ -56,4 +56,4 @@ function delon() {
     pag_home.style.display = 'block';
     pag_login.style.display = 'none';
   }
-} */
+} 

@@ -539,9 +539,9 @@ align-items: center;
 
 /*Pagina de login*/
 
-/* .pag-login {
+.pag-login {
   display: none;
-} */
+} 
 
 .divisao-class {
   display: flex;
