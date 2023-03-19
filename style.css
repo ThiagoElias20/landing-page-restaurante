@@ -130,7 +130,7 @@ html {
 /*Começo Banner*/
 
 .banner {
-  background-image: url(/img/banner/madeira-fundo.jpeg);
+  background-image: url(madeira-fundo.jpeg);
   width: 100%;
   height: 500px;
   display: flex;
@@ -408,7 +408,7 @@ align-items: center;
 /*Começo da parte vegetariana*/
 
 .backgreen {
-  background-image: url(/img/banner/Fundo\ plantastest.png);
+  background-image: url(Fundo\ plantastest.png);
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
